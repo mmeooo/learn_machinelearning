@@ -18,7 +18,7 @@ pickle.load(open('./saves/favorite_save.pkl', 'rb'))
 
 
 favorite_load= pickle.load(open('./saves/favorite_save.pkl', 'rb'))
-favorite_load
+print(favorite_load)
 
 
 # In[4]:
@@ -49,6 +49,12 @@ autompg_lr.predict([[3504.0, 8]])
 
 # In[ ]:
 
+a= 3504.0
+b= 8
+import numpy as np
+pre= np.array([[a,b]])
+print(autompg_lr.predict(pre))
 
+print(autompg_lr.predict([[3504.0, 8]]))
 
 
