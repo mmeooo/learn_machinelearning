@@ -18,7 +18,7 @@ pickle.load(open('./saves/favorite_save.pkl', 'rb'))
 
 
 favorite_load= pickle.load(open('./saves/favorite_save.pkl', 'rb'))
-print(favorite_load)
+print(favorite_load) # 주피터로 써서 출력할 때 print써야함
 
 
 # In[4]:
@@ -30,7 +30,7 @@ type(favorite_load)
 # In[5]:
 
 
-favorite_load['tiger']
+print(favorite_load['tiger']) # 주피터로 써서 출력할 때 print써야함
 
 
 # In[7]:
@@ -38,7 +38,7 @@ favorite_load['tiger']
 
 # 파일이므로 open명령 써야함, binary형식의 파일모드는 'rb'
 autompg_lr= pickle.load(open('./saves/autompg_lr.pkl', 'rb'))
-autompg_lr
+print(autompg_lr) # 주피터로 써서 출력할 때 print써야함
 
 
 # In[8]:
