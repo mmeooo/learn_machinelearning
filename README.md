@@ -1,5 +1,6 @@
 # test_machinelearning
 
+
 1. 정보(데이터)단계
   - dropna : info(), describe()  
   - fillna, replace : describe(), value_counts()
@@ -13,9 +14,11 @@
   - data split
 
 
+
 2. 교육 단계
   - model make & learning
   - check score
+
 
 
 3. 서비스 단계
